@@ -1,12 +1,41 @@
-body {background-color: rgb(232, 229, 209);color: rgb(41, 54, 3);
+body {background-color: rgb(255, 255, 255);color: rgb(41, 54, 3);
 text-align: center;}
-body {color: rgb(41, 54, 3)}
+body {color: rgb(68, 40, 0) }
 p {color: black;}
-div {
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+
+#titulo{
+    top: 0;
+    position:sticky;
+    background-color: rgb(68, 40, 0);
+    color: rgb(240, 235, 186);
+    border: 1px solid rgb(68, 40, 0);
+}
+#navegador{
+    text-align: left;
+    color: rgb(240, 235, 186);
 }
 
-#foto-inicio{width: 50%;}
+#foto-inicio{width: 25%;}
+#foto-preparar{width: 80%;}
+#tipos-de-mates{width: 80%;}
+
+
+#Formas-de-preparar-un-mate{
+    color: rgb(68, 40, 0);
+    width: 330.2px;
+    padding: 3px;
+    border: 3px solid rgb(68, 40, 0);
+    margin: auto;
+    
+}
+
+#Tipos-de-matesuli{
+    color: rgb(68, 40, 0);
+    width: 320px;
+    padding: 3px;
+    border: 3px solid rgb(68, 40, 0);
+    margin: auto;
+}
+
+
+
