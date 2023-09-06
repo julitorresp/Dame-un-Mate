@@ -37,5 +37,10 @@ p {color: black;}
     margin: auto;
 }
 
-
-
+#sin-terminar{
+    color: rgb(68, 40, 0);
+    width: 320px;
+    padding: 3px;
+    border: 3px solid rgb(68, 40, 0);
+    margin: auto;
+}
