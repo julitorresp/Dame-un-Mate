@@ -1,21 +1,36 @@
-body {background-color: rgb(255, 255, 255);color: rgb(41, 54, 3);
-text-align: center;}
+body {background-color: aliceblue;color: rgb(41, 54, 3);
+    text-align: center;
+    text-decoration: none}
 body {color: rgb(68, 40, 0) }
 p {color: black;}
 
-#titulo{
+#encabezado{
     top: 0;
     position:sticky;
-    background-color: rgb(68, 40, 0);
-    color: rgb(240, 235, 186);
     border: 1px solid rgb(68, 40, 0);
+}   
+
+.titulo{
+    background-color: rgb(68, 40, 0);
+    color: aliceblue;  
+    padding: 1px;
+}
+
+.inicio{
+    background-color: aliceblue;
+    color: rgb(68, 40, 0);
+    text-decoration: none;
+
 }
 #navegador{
+    background-color: aliceblue;
+    color: rgb(68, 40, 0);
     text-align: left;
-    color: rgb(240, 235, 186);
-}
+    margin: 0;}
+    
+
 #fotologo{width: 5%;}
-#foto-inicio{width: 25%;}
+#foto-inicio{width: 20%;}
 #foto-preparar{width: 80%;}
 #tipos-de-mates{width: 80%;}
 
@@ -26,8 +41,11 @@ p {color: black;}
     padding: 3px;
     border: 3px solid rgb(68, 40, 0);
     margin: auto;
-    
+    background-color: white;
+    display: inline-block;
 }
+.formas{width: 30%  ;}
+#formasmates{display: inline-block}
 
 #Tipos-de-matesuli{
     color: rgb(68, 40, 0);
@@ -35,7 +53,13 @@ p {color: black;}
     padding: 3px;
     border: 3px solid rgb(68, 40, 0);
     margin: auto;
+    background-color: white;
+    display: inline-block;
 }
+
+.tipomates{
+    width: 20%;
+    }
 
 #sin-terminar{
     color: rgb(68, 40, 0);
@@ -43,4 +67,6 @@ p {color: black;}
     padding: 3px;
     border: 3px solid rgb(68, 40, 0);
     margin: auto;
+    background-color: white;
 }
+    
