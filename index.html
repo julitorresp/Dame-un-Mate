@@ -1,52 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="flow.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dame un Mate</title>
 </head>
+
 <body>
     <header id="encabezado">
-        <div class="titulo"><h1>Dame un Mate</h1></div>
-        <div><ul id="navegador">
-            <li><a class="inicio" href="/index.html">Inicio</a></li>
-            <li><a class="inicio" href="/tiposmates.html">Tipos de mates</a></li>
-            <li><a class="inicio" href="/preparar.html">Formas de preparar</a></li>
-        </ul></div>
+
+        <section class="flex-container-encabezado">
+        <div class="logo">
+            <a href="/index.html">
+            <img src="/imagenes/1.png" alt="LOGO"></a>
+        </div>
+        <div class="navegador">
+            <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/tiposmates.html">Tipos de mates</a></li>
+            <li><a href="/preparar.html">Formas de preparar</a></li>
+        </ul></div></section>
     </header>
-    
 
     <main>
-        <h2 id="inicio">El mate no es simplemente algo que se toma, es un ritual.</h2>
+        <section class="que-mate">
+        <h2>El mate no es simplemente algo que se toma, es un ritual.</h2>
         
-        <img id="foto-inicio" src="/imagenes/mate 1.webp" alt="FOTO DE MATE">
-            <h2>¿Qué es el mate?</h2>
-            <p>El mate es un tipo de infusión que se hace con hojas cortadas, desecadas y molidas de yerba mate (Ilex paraguariensis), una planta originaria de la región suramericana de los ríos Paraguay y Paraná, conocida también como té paraguayo, oro verde o té del Brasil. De característico sabor amargo, debido a los taninos presentes en la hoja, el mate tiene un efecto estimulante debido a su contenido de cafeína, aunque antiguamente se pensaba que contenía un supuesto energizante llamado “mateína”.
-            </p>
-            
-            <div id="Formas-de-preparar-un-mate"><h2>Formas de preparar un mate</h2>
+        <img class="foto-inicio" src="/imagenes/mate 1.webp" alt="FOTO DE MATE">
+        
+        <div class="que-es-mate"><h3>¿Qué es el mate?</h3>
+        <p>El mate es un tipo de infusión que se hace con hojas cortadas, desecadas y molidas de yerba mate (Ilex paraguariensis), una planta originaria de la región suramericana de los ríos Paraguay y Paraná, conocida también como té paraguayo, oro verde o té del Brasil. De característico sabor amargo, debido a los taninos presentes en la hoja, el mate tiene un efecto estimulante debido a su contenido de cafeína, aunque antiguamente se pensaba que contenía un supuesto energizante llamado “mateína”.
+        </p></div>
+        
+    </section>
+
+            <section class="flex-container-selectores">
+
+            <div class="formas-de-preparar"><h4>Formas de preparar un mate</h4>
                 <a href="/preparar.html" class="boton">
-                    <img id="foto-preparar" src="/imagenes/botonpreparar.jpg" alt="MATE PREPARAR">
-                </a>
-                <!--<p>Existen muchos tipos de preparación pero estos son los mas tipicos</p>*/
-                <h3>Mate amargo</h3>
-                <p>Como su nombre lo indica, se trata del consumo de la infusión sin adulterar y sin endulzar, por lo que constituye la preparación más habitual y corriente, conocida como cimarrón en Brasil.</p>
-                <h3>Mate dulce</h3>
-                <p>Difiere del mate amargo en que se le incorpora un poco de azúcar, miel o algún edulcorante (usualmente stevia) cuando se prepara, siempre a gusto del consumidor.</p>-->
-            </div>
+                    <img class="foto-preparar" src="/imagenes/botonpreparar.jpg" alt="MATE PREPARAR">
+                </a></div>
             
-            <div id="Tipos-de-matesuli"><h2>Tipos de matesuli</h2>
+
+            <div class="tipos"><h4>Tipos de mates</h4>
                 <a href="/tiposmates.html" class="boton">
-                    <img id="tipos-de-mates" src="/imagenes/tipos de mates2.jpg" alt="TIPOS DE MATES">
-                </a>
-                <!--<h3>Mates de calabaza</h3>
-                    <p>Se hacen utilizando la fruta de la calabaza debido a su forma redondeada y cáscara exterior dura, que la hace adecuada para su uso como mate. Para crear el espacio interior, se saca la pulpa de la calabaza. Luego, se secan las frutas para su posterior decoración artesanal, lo que agrega un atractivo adicional.</p>
-                <h3>Mates de plata o alpaca</h3>
-                    <p>Estos mates son similares a los mencionados anteriormente, ya que también están hechos con calabazas, pero se distinguen por su decoración artesanal, que incluye adornos de metales como plata y alpaca. Además, existen mates que están completamente fundidos en plata, lo que significa que están hechos enteramente de este metal. El proceso de creación involucra el diseño, seguido por el fundido del metal y el moldeado en la forma deseada. Finalmente, se decoran mediante pulido o grabado para lograr el aspecto final deseado.</p>
-                <h3>Mates de cuernos vacuno</h3>
-                    <p>Los mates hechos de cuernos vacunos son populares entre los amantes del mate. Están hechos de astas y guampas, con una base ancha para estabilidad. Se cubren con metal y decoraciones en plata en el exterior. Antes de usarlos con yerba mate, se recomienda remojarlos con agua y detergente durante 24 horas para eliminar la grasa de los cuernos.</p>-->
-            </div>
+                    <img class="tipos-de-mates" src="/imagenes/tipos de mates2.jpg" alt="TIPOS DE MATES">
+                </a></div>
+            </div></section>
 
 
             <div id="sin-terminar">
