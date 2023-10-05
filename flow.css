@@ -8,6 +8,7 @@ p {color: black;
 h1, h2, h3, h4, h5, h6{
         padding: 20px;
         color: rgb(68, 40, 0);
+        text-align: center;
 
 }
 
@@ -178,15 +179,6 @@ h1, h2, h3, h4, h5, h6{
     padding: 20px;
 }
 /*--------forma de preparar----------*/
-
-
-
-
-
-
-
-
-
 /*--------------------en proceso-----------------------------*/
 #sin-terminar{
     color: rgb(68, 40, 0);
@@ -200,199 +192,197 @@ h1, h2, h3, h4, h5, h6{
 /*--------------------cuerpo-----------------------------*/
 
 
-#portviewcelu{
-    display: none;
+/* Vista Celulalar*/
+    
+@media only screen and (max-width: 600px){
+    body{
+        background-color: white;
+        color: rgb(68, 40, 0);
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;}
+p {
+    color: black;
+    padding: 10px;
+    margin: 0;}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 20px;
+    color: rgb(68, 40, 0);
+    margin: 0;
 }
 
-    
-@media only screen and (max-width: 600px){}
-    body{background-color: aqua;
-            background-color: white;
-            color: rgb(68, 40, 0);
-            text-align: center;
-            text-decoration: none;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-          }
-          
-          p {
-            color: black;
-            padding: 10px;
-            margin: 0;
-          }
-          
-          h1, h2, h3, h4, h5, h6 {
-            padding: 20px;
-            color: rgb(68, 40, 0);
-            margin: 0;
-          }
-          
-          /* Encabezado */
-          #encabezado {
-            background-color: white;
-            color: rgb(68, 40, 0);
-            top: 0;
-            position: sticky;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-          }
-          
-          .flex-container-encabezado {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-          }
-          
-          .logo img {
-            width: 85px;
-          }
-          
-          .inicio {
-            background-color: white;
-            text-decoration: none;
-          }
-          
-          .navegador ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            color: white;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          }
-          
-          .navegador a {
-            text-decoration: none;
-            color: rgb(101, 67, 19);
-            padding: 10px;
-          }
-          
-          .navegador a:hover {
-            background-color: white;
-            color: rgb(68, 40, 0);
-          }
-          
-          /* Que es el mate */
-          .foto-inicio {
-            width: 100%;
-            max-width: 300px;
-            margin: 20px auto;
-            border-radius: 6%;
-          }
-          
-          .que-mate {
-            padding: 20px;
-          }
-          
-          .que-mate h2 {
-            margin: 20px;
-            font-size: 24px;
-          }
-          
-          .que-es-mate {
-            margin: 20px auto;
-            max-width: 900px;
-            text-align: justify;
-          }
-          
-          /* Cuerpo - Selectores */
-          .flex-container-selectores {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            padding: 30px;
-          }
-          
-          .flex-container-selectores img {
-            max-width: 100%;
-            border-radius: 3%;
-          }
-          
-          .formas-de-preparar,
-          .tipos {
-            flex: 1;
-            max-width: 300px;
-            margin: 20px;
-            background-color: white;
-            border: 1px solid rgb(68, 40, 0);
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-          }
-          
-          .formas-de-preparar h4,
-          .tipos h4 {
-            margin: 10px;
-            font-size: 20px;
-          }
-          
-          /* Tipos de Mates */
-          .flex-container-tipos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 30px;
-          }
-          
-          .todos {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-            max-width: 300px;
-            margin: 20px;
-            background-color: white;
-            border: 1px solid rgb(68, 40, 0);
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-          }
-          
-          .calabaza img {
-            width: 100%;
-            max-width: 200px;
-            margin: 10px auto;
-          }
-          
-          .calabaza div {
-            margin: 10px;
-            font-size: 18px;
-          }
-          
-          /* Formas de preparar */
-          .flex-container-formas {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 30px;
-          }
-          
-          .formasmate p {
-            margin: 10px;
-            font-size: 18px;
-          }
-          
-          .formasmate img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin: 10px;
-          }
-          
-          /* En proceso */
-          #sin-terminar {
-            color: rgb(68, 40, 0);
-            width: 320px;
-            padding: 3px;
-            border: 3px solid rgb(68, 40, 0);
-            margin: 20px auto;
-            background-color: white;
-            text-align: center;
-            font-size: 18px;
-            border-radius: 10px;
-          }
-          
+  /* Encabezado */
+#encabezado {
+    background-color: white;
+    color: rgb(68, 40, 0);
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.flex-container-encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 
+.logo img {
+    width: 85px;}
 
+.inicio {
+    background-color: white;
+    text-decoration: none;
+}
+.navegador ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.navegador a {
+  text-decoration: none;
+  color: rgb(101, 67, 19);
+  padding: 10px;
+}
+
+.navegador a:hover {
+  background-color: white;
+  color: rgb(68, 40, 0);
+}
+
+/* Que es el mate */
+.foto-inicio {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 6%;
+}
+
+.que-mate {
+  padding: 20px;
+}
+
+.que-mate h2 {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.que-es-mate {
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: justify;
+}
+/* Que es el mate */
+
+/* Cuerpo - Selectores */
+.flex-container-selectores {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-container-selectores img {
+  max-width: 100%;
+  border-radius: 3%;
+}
+
+.formas-de-preparar,
+.tipos{
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid rgb(68, 40, 0);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.formas-de-preparar h4,
+.tipos h4 {
+  margin: 10px;
+  font-size: 20px;
+}
+/* Cuerpo - Selectores */
+
+/* Tipos de Mates */
+.flex-container-tipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.todos {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid rgb(68, 40, 0);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: justify;
+}
+.todos img{
+    width: 100%;
+}
+.calabaza{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calabaza img {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px auto;
+}
+
+.calabaza div {
+  margin: 10px;
+  font-size: 18px;
+}
+/* Tipos de Mates */
+
+/* Formas de preparar */
+.flex-container-formas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.formasmate p {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.formasmate img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+/* Formas de preparar */
+
+/* En proceso */
+#sin-terminar {
+  color: rgb(68, 40, 0);
+  width: 320px;
+  padding: 3px;
+  border: 3px solid rgb(68, 40, 0);
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;}}
+  /* En proceso */
