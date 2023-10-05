@@ -1,4 +1,4 @@
-body {background-color: aliceblue;color: rgb(41, 54, 3);
+body {background-color: white;color: rgb(41, 54, 3);
     text-align: center;
     text-decoration: none;}
 body {color: rgb(68, 40, 0) }
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*------------------encabezado---------------------------*/
 #encabezado{
-    background-color: aliceblue;
+    background-color: white;
     color: rgb(68, 40, 0);
     top: 0;
     position:sticky;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .inicio{
-    background-color: aliceblue;
+    background-color: white;
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6{
     list-style: none;  
     margin: 0;  
     padding: 0;  
-    color: aliceblue;
+    color: white;
     width: 100%;  
     display: flex;  
     justify-content: space-between;
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px; 
 }
 .navegador a:hover {
-    background-color: aliceblue;
+    background-color: white;
     color: rgb(68, 40, 0);
 }
 /*------------------encabezado---------------------------*/
