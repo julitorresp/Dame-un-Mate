@@ -1,8 +1,16 @@
 body {background-color: aliceblue;color: rgb(41, 54, 3);
     text-align: center;
-    text-decoration: none}
+    text-decoration: none;}
 body {color: rgb(68, 40, 0) }
-p {color: black;}
+p {color: black;
+    padding: 10px;}
+
+h1, h2, h3, h4, h5, h6{
+        padding: 20px;
+        color: rgb(68, 40, 0);
+
+}
+
 
 
 /*------------------encabezado---------------------------*/
@@ -65,15 +73,18 @@ p {color: black;}
 .que-mate h2 {
     margin: 30px; 
 }
-.que-mate .foto-inicio {
+.foto-inicio {
     margin: 30px; 
     border-radius: 6%;
 }
-.que-mate .que-es-mate {
+.que-es-mate {
     margin: 30px auto;
     max-width: 900px;
     text-align: center;
 }
+
+
+
 
 /*--------------------que es el mate-----------------------------*/
 
@@ -99,6 +110,9 @@ p {color: black;}
     padding: 3px;
     margin: auto;
     background-color: white;
+    border: solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
 }
 
 .tipos{
@@ -107,29 +121,63 @@ p {color: black;}
     padding: 3px;
     margin: auto;
     background-color: white;
+    border: solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
 }
 
 /*--------tipos mates----------*/
 .tipomates{   
     width: 20%;
     }
-.flex-container-tipos{ background-color: aqua;}
-.todos{
+
+.flex-container-tipos{
     display: flex;
-    justify-content: space-between; /* Distribuye los divs de manera uniforme */
-    align-items: center; /* Centra verticalmente los elementos en cada div */
+    flex-direction: column;
+}
+.todos{
+    padding: 50px;
+    text-align: center;
+
 }
 
 .calabaza {
-    text-align: center; /* Centra el contenido horizontalmente en cada div */
-    flex: 1; /* Hace que cada div "calabaza" tenga el mismo ancho y ocupe el espacio disponible */
-    margin: 10px; /* Espacio entre los divs, puedes ajustarlo según tu preferencia */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.calabaza div {
+    flex: 1;
+}
+
+.calabaza p{
+    margin: 10px;
+    padding: 10px;
+}
+.calabaza img{
+    width: 60%;
 }
 
 
 /*--------tipos mates----------*/
 
-
+/*--------forma de preparar----------*/
+.flex-container-formas{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+.formasmate p{
+    margin: 25px;
+}
+.formasmate img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px;
+}
+/*--------forma de preparar----------*/
 
 
 
@@ -151,6 +199,7 @@ p {color: black;}
 /*--------------------en proceso-----------------------------*/
 /*--------------------cuerpo-----------------------------*/
 
+/*
 #portviewcelu{
     display: none;
 }
@@ -158,5 +207,5 @@ p {color: black;}
     
 @media only screen and (max-width: 600px){
     body{background-color: aqua;}
-}
+}*/
 
