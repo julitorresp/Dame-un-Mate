@@ -1,6 +1,7 @@
 body {background-color: white;color: rgb(41, 54, 3);
     text-align: center;
-    text-decoration: none;}
+    text-decoration: none;
+    margin-bottom: 7%;}
 body {color: rgb(68, 40, 0) }
 p {color: black;
     padding: 10px;}
@@ -83,6 +84,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 30px; 
 }
 .foto-inicio {
+    width: 50%;
     margin: 30px; 
     border-radius: 6%;
 }
@@ -91,9 +93,6 @@ h1, h2, h3, h4, h5, h6{
     max-width: 900px;
     text-align: center;
 }
-
-
-
 
 /*--------------------que es el mate-----------------------------*/
 
@@ -190,6 +189,63 @@ h1, h2, h3, h4, h5, h6{
     padding: 20px;
 }
 /*--------forma de preparar----------*/
+
+/*--------SHOP----------*/
+.flex-conteiner-shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos {
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: aliceblue;
+  width: 300px;
+}
+
+.productos img {
+  width: 100%;
+}
+
+.productos-info {
+  padding: 10px;
+}
+
+.productos h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.productos p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.productos a.boton {
+  display: block;
+  background-color: rgb(68, 40, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.productos a.boton:hover {
+  background-color: rgb(101, 67, 19);
+
+}
+
+
+
+/*--------SHOP----------*/
+
+
+
 /*--------------------en proceso-----------------------------*/
 #sin-terminar{
     color: rgb(68, 40, 0);
