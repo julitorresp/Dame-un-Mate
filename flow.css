@@ -554,3 +554,44 @@ flex: 1;
   /* En proceso */
 
 
+
+
+  .modalContent {
+    width: 70%; /* Ocupa todo el ancho de la pantalla */
+    height: 50%;
+  }
+
+  .modal-header {
+    padding: 10px; /* Ajustar el espaciado en la parte superior e inferior */
+    font-size: 20px; /* Tamaño de fuente reducido */
+  }
+
+  .modal-header-titulo {
+    font-size: 20px;
+  }
+
+  .modal-header-button {
+    font-size: 20px;
+  }
+
+  .modal-contenido {
+    padding: 10px; /* Ajustar el espaciado en la parte superior e inferior */
+    font-size: 16px; /* Tamaño de fuente reducido */
+  }
+
+  .modal-contenido img {
+    width: 80px; /* Tamaño de imagen reducido */
+    height: 80px;
+  }
+
+  .modal-contenido p {
+    font-size: 14px; /* Tamaño de fuente reducido */
+  }
+
+  .modal-contenido h3 {
+    font-size: 16px; /* Tamaño de fuente reducido */
+  }
+
+  .total-compra {
+    font-size: 20px; /* Tamaño de fuente aumentado */
+  }
