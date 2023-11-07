@@ -259,10 +259,10 @@ h1, h2, h3, h4, h5, h6{
   position: fixed;
   top: 0;
   right: 0;
-  width: 25%; /* Ocupa el 25% del ancho de la pantalla */
-  height: 100%; /* Ocupa toda la altura de la pantalla */
+  width: 25%;
+  height: 100%; 
   background-color: rgb(195, 195, 195);
-  overflow-y: auto; /* Agrega scroll si el contenido es largo */
+  overflow-y: auto; 
   display: none;
   
 }
@@ -550,9 +550,7 @@ flex: 1;
   background-color: white;
   text-align: center;
   font-size: 18px;
-  border-radius: 10px;}}
-  /* En proceso */
-
+  border-radius: 10px;}
 
 
 
@@ -594,3 +592,7 @@ flex: 1;
   .total-compra {
     font-size: 20px;
   }
+}
+  /* En proceso */
+
+
