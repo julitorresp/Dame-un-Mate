@@ -557,13 +557,13 @@ flex: 1;
 
 
   .modalContent {
-    width: 70%; /* Ocupa todo el ancho de la pantalla */
+    width: 70%;
     height: 50%;
   }
 
   .modal-header {
-    padding: 10px; /* Ajustar el espaciado en la parte superior e inferior */
-    font-size: 20px; /* Tamaño de fuente reducido */
+    padding: 10px; 
+    font-size: 20px; 
   }
 
   .modal-header-titulo {
@@ -575,23 +575,22 @@ flex: 1;
   }
 
   .modal-contenido {
-    padding: 10px; /* Ajustar el espaciado en la parte superior e inferior */
-    font-size: 16px; /* Tamaño de fuente reducido */
+    padding: 10px; 
+    font-size: 16px; 
   }
-
   .modal-contenido img {
-    width: 80px; /* Tamaño de imagen reducido */
+    width: 80px; 
     height: 80px;
   }
 
   .modal-contenido p {
-    font-size: 14px; /* Tamaño de fuente reducido */
+    font-size: 14px; 
   }
 
   .modal-contenido h3 {
-    font-size: 16px; /* Tamaño de fuente reducido */
+    font-size: 16px; 
   }
 
   .total-compra {
-    font-size: 20px; /* Tamaño de fuente aumentado */
+    font-size: 20px;
   }
