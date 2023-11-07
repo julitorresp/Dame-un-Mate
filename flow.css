@@ -255,6 +255,17 @@ h1, h2, h3, h4, h5, h6{
 }
 /*------ Estilo para el carrito -----------*/
 
+.modalContent {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%; /* Ocupa el 25% del ancho de la pantalla */
+  height: 100%; /* Ocupa toda la altura de la pantalla */
+  background-color: rgb(195, 195, 195);
+  overflow-y: auto; /* Agrega scroll si el contenido es largo */
+  display: none;
+  
+}
 
 .modal-header {
   background-color: aliceblue;
