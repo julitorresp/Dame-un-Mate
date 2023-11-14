@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Encabezado */
 #encabezado {
-    background-color: #FFFFFF;
+    background-color: green;
     color: rgb(68, 40, 0);
     top: 0;
     position: sticky;
