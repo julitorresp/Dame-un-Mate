@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6{
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: white;
+  background-color: aliceblue;
   width: 300px;
 }
 
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6{
 .productos a.boton {
   display: block;
   background-color: rgb(68, 40, 0);
-  color: white;
+  color: aliceblue;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
@@ -262,8 +262,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .modal-header {
-  background-color: white;
-  color: white;
+  background-color: aliceblue;
+  color: aliceblue;
   padding: 17px;
   text-align: center;
   display: flex;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
   margin: 10px 0;
   padding: 10px;
-  background-color: white;
+  background-color: aliceblue;
   border: 1px solid rgb(197, 197, 197);
   border-radius: 5px;
 }
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Encabezado */
 #encabezado {
-    background-color: green;
+    background-color: white;
     color: rgb(68, 40, 0);
     top: 0;
     position: sticky;
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navegador a:hover {
-  background-color: aliceblue;
+  background-color: white;
   color: rgb(68, 40, 0);
 }
 
