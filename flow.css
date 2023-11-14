@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
   margin: 10px 0;
   padding: 10px;
-  background-color: aliceblue;
+  background-color: rgb(248, 248, 248);
   border: 1px solid rgb(197, 197, 197);
   border-radius: 5px;
 }
