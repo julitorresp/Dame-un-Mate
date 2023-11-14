@@ -556,6 +556,8 @@ flex: 1;
   .modalContent {
     width: 70%;
     height: 50%;
+    border-radius: 7px;
+    border: 3px solid rgb(197, 197, 197);
   }
 
   .modal-header {
