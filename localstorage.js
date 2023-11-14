@@ -1,4 +1,4 @@
-
+/*
 const mates= [
     {
         id: 1,
@@ -85,4 +85,15 @@ const bombilla= [
         precio: 9000,
         img: "/imagenes/bombilla6.webp",
     }
-    ];
+    ];*/
+
+
+let carritoItems = document.getElementById();
+
+localStorage.setItem("carrito", );
+
+window.onload.function cargarDatos() {
+
+
+    
+}
