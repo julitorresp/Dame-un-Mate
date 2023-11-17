@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6{
 .productos a.boton {
   display: block;
   background-color: rgb(68, 40, 0);
-  color: aliceblue;
+  color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
@@ -264,8 +264,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .modal-header {
-  background-color: aliceblue;
-  color: aliceblue;
+  background-color: white;
+  color: white;
   padding: 17px;
   text-align: center;
   display: flex;
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
   margin: 10px 0;
   padding: 10px;
-  background-color: aliceblue;
+  background-color: white;
   border: 1px solid rgb(197, 197, 197);
   border-radius: 5px;
 }
