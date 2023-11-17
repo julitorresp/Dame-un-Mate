@@ -59,21 +59,8 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px; 
 }
 .navegador a:hover {
-    background-color: #FFFFFF;
     color: rgb(68, 40, 0);}
 
-.botonBUSCAR {
-  background-color: rgb(68, 40, 0);
-  color: #FFFFFF;
-  padding: 10px 20px; 
-  border: none;
-  border-radius: 5px;
-  font-size: 16px; 
-}
-
-.botonBUSCAR:hover {
-  background-color: rgb(101, 74, 47);
-}
 
 /*------------------encabezado---------------------------*/
 
