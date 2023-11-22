@@ -102,13 +102,15 @@ function actualizarCarrito() {
     const modalbutton = document.createElement("h1");
     modalbutton.innerText = "x";
     modalbutton.className = "modal-header-button";
+
     modalbutton.addEventListener("click", () => {
     modalContenido.style.display = "none";
-    });
+    }); 
 
     modalHeader.append(modalbutton);
 
     carrito.forEach((product) => {
+
         let carritoContenido = document.createElement("div");
         carritoContenido.className = "modal-contenido";
         carritoContenido.innerHTML = `
@@ -127,6 +129,8 @@ function actualizarCarrito() {
         totalcompra.innerHTML = `Total a pagar: $${total}`;
         modalContenido.append(totalcompra);
     }   ;
+
+
 
 mates.forEach((product) => {
     let contenidoM = document.createElement("div");
